@@ -12,8 +12,6 @@ name: Security audit
 # See the npm entry in .github/dependabot.yml for the full rationale.
 
 on:
-  schedule:
-    - cron: '0 6 * * 1' # Mondays 06:00 UTC
   workflow_dispatch:
 
 permissions:
